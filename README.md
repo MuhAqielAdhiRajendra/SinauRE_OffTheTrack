@@ -87,6 +87,13 @@ Proyek ini bertujuan untuk memodifikasi jumlah koin/uang awal pada game Android 
 
 Proses *reverse engineering* game "Off The Tracks" membuktikan bahwa game modern (terutama yang menggunakan Unity IL2CPP) memiliki proteksi yang cukup tangguh untuk pemula. Namun, dengan kombinasi **memory scanning (GameGuardian)** dan pemahaman dasar tentang arsitektur Android, kita tetap bisa mencapai tujuan – meskipun tidak permanen.
 
+pada scanning game guardian ketika dijalankan pada  ada 4 addres yang dapat mengubah "highscore" 
+1. 76385A53A2D0
+2. 76385A53AC10
+3. 76385A55FC90
+4. 76385A55FFF0
+
+
 > **Semakin dalam kita menggali, semakin banyak yang kita pelajari. Teruslah bereksperimen!**  
 > – Pengalaman langsung dari lapangan.
 

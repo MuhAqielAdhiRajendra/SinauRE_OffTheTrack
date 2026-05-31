@@ -1,0 +1,22 @@
+version: 3.0.2
+apkFileName: Off The Tracks.apk
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: 22
+  targetSdkVersion: 35
+versionInfo:
+  versionCode: 10
+  versionName: 1.6.1
+resourcesInfo:
+  packageId: 127
+doNotCompress:
+- arsc
+- dex
+- png
+- META-INF/com.android.games.engine.build_fingerprint
+- assets/bin/Data/data.unity3d
+- assets/bin/Data/sharedassets0.resource
+- assets/bin/Data/sharedassets1.resource
+- assets/bin/Data/unity_app_guid
